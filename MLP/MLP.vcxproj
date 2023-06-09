@@ -139,13 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="mlp_defination.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mlp.cpp" />
     <ClCompile Include="MNIST_read.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="test_MNIST_read.cpp" />
+    <ClCompile Include="tools.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="mlp.h" />
     <ClInclude Include="MNIST_read.h" />
+    <ClInclude Include="tools.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
